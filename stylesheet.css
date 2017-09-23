@@ -1,0 +1,96 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arima Madurai', cursive;
+}
+
+p {
+    padding: 20px 10px 20px 20px;
+}
+
+a {
+    color: orangered;
+}
+
+a:hover {
+    color: #ff6933;
+}
+
+.btn-primary {
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.btn-primary:hover {
+    background-color: #ff6933;
+    border-color: #ff6933;
+}
+
+.active {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.navbar h2 {
+    padding: 5px;
+}
+
+nav li {
+    margin: 0 5px;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+#home {
+    background: url("img/bg.jpg") fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#title {
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 150px;
+    padding: 60px 0;
+}
+
+#title .btn {
+    margin-top: 30px;
+}
+
+#about img {
+    width: 150px;
+    float: left;
+    padding: 10px;
+    border: 1px solid grey;
+    margin-right: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+#contact {
+    background: url("img/bg-contact.jpg") fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#contact-inner {
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 80px;
+    padding: 60px 0;
+}
